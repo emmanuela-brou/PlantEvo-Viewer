@@ -1,0 +1,174 @@
+/*page d'accueil*/
+
+body{
+    background-color : #F5F8F2;
+}
+header{
+    display : flex;
+    justify-content : space-between;
+    align-items : center; 
+    background-color: green;
+}
+.entete img{
+    height : 65px;
+    width : auto;
+    display : block;
+}
+.navigation a {
+color : white;
+text-decoration : none;
+padding: 30px 30px 30px 30px;
+}
+.navigation {
+    text-align: right;
+}
+.groupesaccueil a{
+  display: inline-block;
+    background-color: white;
+    color: #5a8a52;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 4px 25px;
+    border-radius: 30px;
+    text-decoration: none;  
+}
+
+h1 {
+    color: #234B32
+}
+h2{
+    color: black;
+}
+.groupes a{
+    color: #56864A;
+}
+.groupes p{
+    color: white;
+   background-color:#234B32;
+}
+
+/*page des différents groupes*/
+
+.image img{
+    max-width: 350px;
+    text-align: center;
+    margin: 30px;
+    padding: 0 20px;
+}
+
+h3{
+    color: #344E41;
+}
+
+/*menu les groupes*/
+
+.texteimage a{
+    display: inline-block;
+    background-color: white;
+    color: #5a8a52;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 4px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.texte-image a{
+    display: inline-block;
+    background-color: white;
+    color: #5a8a52;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 4px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.groupe a {
+    display: inline-block;
+    background-color: #2e7d32;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+.grille-groupes {
+    max-width: 1250px;
+    margin: 40px auto;
+    padding: 0 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 60px 20px;                          
+}
+
+/* carte*/
+.carte {
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.carte img {
+    display: block;
+    width: 195px;
+    height: 195px;
+    object-fit: cover;
+    border-radius: 40px;                     
+    margin-bottom: 30px;
+}
+
+.carte img:hover {
+    opacity: 0.85;
+}
+
+.carte h3 {
+    color: #2f5a3f;                          
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 8px;
+}
+
+.carte p {
+    font-size: 18px;
+    padding-left: 8px;
+}
+
+/* Bouton "Précédent" */
+.bas-de-page {
+    max-width: 1250px;
+    margin: 0 auto 40px;
+    padding: 0 120px;
+    text-align: right;
+}
+
+.bouton-precedent {
+    display: inline-block;
+    background-color: white;
+    color: #5a8a52;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 4px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.bouton-precedent:hover {
+    background-color: #c8e6c9;
+}
+
+/*menu description*/
+
+.texte-image img{
+ max-width: 350px;
+    text-align: center;
+    margin: 30px;
+    padding: 0 20px;   
+}
+
+.texteimage img{
+  max-width: 350px;
+    text-align: center;
+    margin: 30px;
+    padding: 0 20px;  
+}
+
