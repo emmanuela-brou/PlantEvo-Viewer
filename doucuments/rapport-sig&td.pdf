@@ -1,0 +1,30 @@
+RAPPORT SIG : Projet PlantEvo-Viewer
+
+AUTEUR 
+
+Prénoms et Nom : Emmanuela Brou Grâce KOUAME
+Période du projet : du 16-23 Novembre 2026
+
+CONTEXTE
+
+Le projet PlantEvo-Viewer s'inscrit dans la réalisation d'une présentation sur l'évolution des végétaux. Le but esr de créer un site wreb intéractif destiné à tous, qui permet de comprendre comment et pourquoi les végétaux ont colonisé tous les milieux de vie.
+
+OBJECTIF  
+
+Repérer par GPS la position de chaque espèces observée, puis représenter ces position sur une carte.
+
+METHODE ET OUTIL DE COLLECTE
+- Outil utilisé : Kobotoobox-collect 
+- Système de coordonnées : Latitude et Longitude en décimal.
+- Précision affichée : 5 à 9.
+- Procedure : Se placer à c^pté de la plante, attendre que la position se stabilise, en suite noter l'id, le groupe, l'espèce, les coordonnées, la date, l'heure et prendre les photos au même endroit.
+
+RELEVEE DES POSITIONS
+
+|Groupe| |Latitude| |Longitude| |Date et heure| |Précision| 
+|Algues| |6,864811| |-5,243472| |2026/11/21 à 11:24 | |5,54843703747972|
+|Mousses| |6,864817| |-5,243479| |2026/11/21 à 11:18| |6,51337664062314|
+|Fougères| |6,864899| |-5,243411| |2026/11/21 à 11:13| |5,97124647487666|
+|Conifères| |6,86648| |-5,242269| |2026/11/21 à 12:13| |9,58371966324267|
+|Graminées| |6,865566| |-5,243386| |2026/11/21 à 10:54| |5,25937716840387|
+|Dictylédones| |6,86555| |-5,243539| |2026/11/21 à 10:35| |5,42182925156457|
